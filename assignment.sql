@@ -1,14 +1,14 @@
 --- Created by Ketan Pal for internship in TechdomeSolutions as database developer
 
 -- CREATING TABLE
-CREATE TABLE IF NOT EXIXTS emp(
+CREATE TABLE IF NOT EXISTS emp(
 eid INTEGER(5),
 ename varchar(20),
 ejob varchar(20),
 esal decimal (8,2));
 --INSERTING VALUES
 INSERT INTO emp VALUES(1,'raj','manager',4000);
-INSERT INTO emp VALUES(2,'Ishaan','clerk',500);
+INSERT INTO emp VALUES(2,'eshaan','clerk',500);
 INSERT INTO emp VALUES(3,'Dhruv','clerk',200);
 INSERT INTO emp VALUES(4,'Diya','manager',1100);
 INSERT INTO emp VALUES(5,'Ananya','clerk',400);
