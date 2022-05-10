@@ -1,3 +1,5 @@
+--- Created by Ketan Pal for internship in TechdomeSolutions as database developer
+
 -- CREATING TABLE
 CREATE TABLE IF NOT EXIXTS emp(
 eid INTEGER(5),
